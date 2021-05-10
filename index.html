@@ -4,24 +4,153 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ayaan's ice cream</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Itim&family=New+Tegomin&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/normalize.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
+
   <body>
-    <h1>heading 1</h1>
-    <h2>heading 2</h2>
-    <h3>heading 3</h3>
+    <nav>
+      <div class="nav collapsible">
+        <div class="footer__brand">
+          <a href="/"
+            ><img src="img/ice.png" style="width: 100px; height: 50px" alt=""
+          /></a>
+        </div>
+        <svg class="icon icon--primary nav__toggler">
+          <use xlink:href="img/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">SHIP NATIONWIDE</a></li>
+          <li class="nav__item"><a href="#"> LOCAL DELIVERY</a></li>
+          <li class="nav__item"><a href="#">WHERE TO BYU</a></li>
+          <li class="nav__item"><a href="#">SCOOP SHOPS</a></li>
+          <li class="nav__item"><a href="#">ABOUT</a></li>
+          <li class="nav__item"><a href="#">COVID-19 UPDATE</a></li>
+          <li class="nav__item"><a href="#">CART</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Ayaan's Ice Cream is So Delicious !</h1>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-      velit minima blanditiis, nam nihil saepe ad iste. Officia, provident
-      dolores.
+      We make icecream that has so much flavour you can try and enjoy ! if you
+      buy an icecream we guarantee you will come back !
     </p>
+    <a href="#" class="link-arrow">Order Here</a>
+    <div class="gallery">
+      <img data-aos="fade-right" src="img/gallery-01.jpg" alt="" />
+      <img data-aos="fade-left" src="img/gallery-02.jpg" alt="" />
+
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <img src="img/gallery-06.jpg" alt="" />
+      </div>
+      <div data-aos="fade-up" data-aos-duration="3000">
+        <img src="img/gallery-04.jpg" alt="" />
+      </div>
+
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <img src="img/gallery-05.jpg" alt="" />
+      </div>
+      <img data-aos="zoom-in" src="img/gallery-03.jpg" alt="" />
+    </div>
+    <div class="card-ice tesimonial">
+      <div class="grid grid--1x2">
+        <div class="testimonial__image">
+          <img
+            class="images-ice"
+            src="img/rainbow-ice-cream-cone-Tumblr.jpg"
+            alt="A yummy ice cream"
+          />
+        </div>
+        <div class="media__body">
+          <h2 class="media__title quote__author">OUR PLACE</h2>
+          <h4>ice cream by the sea</h4>
+          <p>
+            I'm a paragraph. Click here to add your own text and edit me. It’s
+            easy. Just click “Edit Text” or double click me to add your own
+            content and make changes to the font. I'm a paragraph. Click here to
+            add your own text and edit me. It’s easy. Just click “Edit Text” or
+            double click me to add your own content and make changes to the
+            font.
+          </p>
+          <a href="#" class="button">Link Button</a>
+        </div>
+      </div>
+    </div>
+    <div class="card-grid">
+      <a href="https://www.freepik.com/psd/sale"
+        ><img
+          data-aos="zoom-in"
+          src="img/5104749.jpg"
+          style="width: 1430px; height: 600px"
+          alt="ice cream "
+      /></a>
+    </div>
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">ADDRESS</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="img/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <address>90 RIVERSIDE ROAD ST46LU</address>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">CONTACT</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="img/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <a href="mailto:">ayaan.hajipour@gmail.com</a>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">HOURS</h2>
+            <svg class="icon icon--white collapsible__chevron">
+              <use xlink:href="img/sprite.svg#chevron"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <p>OPEN DAILY 10AM-10PM</p>
+          </div>
+        </section>
+        <section class="footer__brand">
+          <img
+            class="img-saghi"
+            src="img/ice.png"
+            style="width: 100px; height: 50px"
+            alt=""
+          />
+
+          <p class="footer__copyright">Copyright 2021 Saghi.Abz</p>
+        </section>
+      </div>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
