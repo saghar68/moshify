@@ -10,19 +10,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>digikala</title>
-    <link rel="stylesheet" href="/digikala/style.css" />
-    <link
-      rel="stylesheet"
-      href="/digikala/font/TitrZebr/fontawesome-free-5.15.3-web/css/all.min.css"
-    />
-    <link rel="stylesheet" href="font/TitrZebr/FontLicense.txt" />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet"href="/css/normalize.css"/>
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.3-web/css/fontawesome.min.css">
+    
+    <script src="https://kit.fontawesome.com/1ea5430a3e.js" crossorigin="anonymous"></script>
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/jquery.countdown.min.js"></script>
+    
   </head>
   <body>
     <header>
       <div class="header">
         <div class="header-right">
-          <a href=""><img class="logo" src="img/logo.svg" /></a>
+          <a href=""><img class="logo" src="img/Digikala-En-LimooGraphic.svg" /></a>
           <i class="fa fa-search"></i>
           <input
             type="text"
@@ -32,7 +35,7 @@
         </div>
         <div class="headerleft">
           <a href="">
-            <i class="fa fa-user-alt"></i>
+            <i class="fa fa-user-all"></i>
             ورود به حساب کاربری
           </a>
           <a href="">
@@ -63,34 +66,34 @@
         </div>
       </nav>
     </header>
-
+    
     <main>
       <article class="container">
         <div class="flex">
         <section class="slider">
           <!-- Swiper -->
-          <div class="swiper-container">
+          <div class="swiper-container s0">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <a href="#"><img src="img/slider/a1.jpg" alt="" /></a>
+                <a href="#"><img src="/img/a1.jpg" alt="" /></a>
               </div>
               <div class="swiper-slide">
-                <a href="#"><img src="img/slider/a2.jpg" alt="" /></a>
+                <a href="#"><img src="img/a2.jpg" alt="" /></a>
               </div>
               <div class="swiper-slide">
-                <a href="#"><img src="img/slider/a3.jpg" alt="" /></a>
+                <a href="#"><img src="img/a3.jpg" alt="" /></a>
               </div>
               <div class="swiper-slide">
-                <a href="#"><img src="img/slider/a4.jpg" alt="" /></a>
+                <a href="#"><img src="img/a4.jpg" alt="" /></a>
               </div>
               <div class="swiper-slide">
-                <a href="#"><img src="img/slider/a5.jpg" alt="" /></a>
+                <a href="#"><img src="img/a5.jpg" alt="" /></a>
               </div>
               <div class="swiper-slide">
-                <a href="#"><img src="img/slider/a6.jpg" alt="" /></a>
+                <a href="#"><img src="img/a6.jpg" alt="" /></a>
               </div>
               <div class="swiper-slide">
-                <a href="#"><img src="img/slider/a7.jpg" alt="" /></a>
+                <a href="#"><img src="img/a7.jpg" alt="" /></a>
               </div>
             </div>
             <!-- Add Pagination -->
@@ -101,18 +104,554 @@
           </div>
         </section>
         <aside class="banner-left">
-            <a href="#"><img src="img/banner/banner2.gif" alt="" /></a>
-            <a href="#"><img src="img/banner/banner1.jpg" alt="" /></a>
+            <a href="#"><img src="img/banner2.gif" alt="" /></a>
+            <a href="#"><img src="img/banner1.jpg" alt="" /></a>
           </div>
         </aside>
       </article>
+      <article class="specialoffer">
+        <section class="slider container flex">
+          <div class="right">
+          <a class="banner" href=""></a>
+         <div class="showAll">مشاهده همه
+         <i class="fas fa-chevron-left"></i>
+        </div>
+        </div>
+        <div class="swiper-container s1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/slider1.jpg" alt="">
+              </div>
+              <div class="title">
+                کفش پیاده روی مردانه رومیکا مدل 7r10a
+              </div>
+              <div class="price">
+                <div class="oldprice">
+                <del>۷۹۵,۰۰۰</del>
+                <span class="percent">%۴۰</span>
+              </div>
+              <div class="newprice">
+                <span>۹۵,۰۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+              
+              <div  class="timer" data-countdown="2021/10/01 12:00"></div>
+              
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/slider2.jpg" alt="">
+              </div>
+              <div class="title">
+               شامپو تمیز کننده و براق کننده خودرو روناکس مدل حجم 5۰۰ میلی لیتر 
+              </div>
+              <div class="price">
+                <div class="oldprice">
+                
+                <del>۱۸۹,۰۰۰</del>
+                <span class="percent">%۵۰</span>
+              </div>
+              <div class="newprice">
+                <span>۷۹۵,۰۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+             
+              <div class="timer" data-countdown="2022/03/01 06:30"></div>
+              
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/slider3.jpg" alt="">
+              </div>
+              <div class="title">
+                تابه تکنو مدل پروانه سایز 24
+              </div>
+              <div class="price">
+                <div class="oldprice">
+              
+                <del>۴۵,۰۰۰
+                </del>
+                <span class="percent">%۵۰</span>
+              </div>
+              <div class="newprice">
+                <span>۵۵,۰۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+              <div class="timer"  data-countdown="2022/08/01 20:30"></div>
+             
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/slider4.jpg" alt="">
+              </div>
+              <div class="title">
+                ساعت مچی عقربه ای زنانه کاسیو مدل LTP-VT01L-2B2UDF
+              </div>
+              <div class="price">
+                <div class="oldprice">
+                
+                <del>۵۵,۰۰۰
+                </del>
+                <span class="percent">%۴۰</span>
+              </div>
+              <div class="newprice">
+                <span>۴۵,۰۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+              <div class="timer" data-countdown="2022/08/01 14:00"></div>
+              
+             </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/slider5.jpg" alt="">
+              </div>
+              <div class="title">
+                ست کیف و کفش زنانه کد 910-2
+              </div>
+              <div class="price">
+                <div class="oldprice">
+                
+                <del>۳۶,۰۰۰</del>
+                <span class="percent">%۵۰</span>
+              </div>
+
+              <div class="newprice">
+                <span>۷۹۵,۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+              <div class="timer" data-countdown="2023/04/01 08:30"></div>
+            
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/slider6.jpg" alt="">
+              </div>
+              <div class="title">
+                پایه نگهدارنده گوشی موبایل مدل L1000D طرح Samsung
+               </div>
+              <div class="price">
+                <div class="oldprice">
+                
+                <del>۹۵,۰۰۰</del>
+                <span class="percent">%۵۰</span>
+              </div>
+              <div class="newprice">
+                <span>۶۵,۰۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+              <div class="timer" data-countdown="2024/01/01 09:10"></div>
+             
+            </a>
+            </div>
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        </section>
+      </article>
+      <article class="banner1">
+        <div class="container flex">
+          <a href=""><img src="img/b1.jpg" alt=""></a>
+          <a href=""><img src="img/b4.jpg" alt=""></a>
+          <a href=""><img src="img/b3.jpg" alt=""></a>
+          <a href=""><img src="img/b2.jpg" alt=""></a>
+        </div>
+
+      </article>
+      <article class="specialoffer marketslide">
+        <section class="slider container flex">
+          <div class="right">
+          <a class="banner1" href=""></a>
+         <div class="showAll">مشاهده همه
+         <i class="fas fa-chevron-left"></i>
+        </div>
+        </div>
+        <div class="swiper-container s1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/c1.jpg" alt="">
+              </div>
+              <div class="title">
+                کفش پیاده روی مردانه رومیکا مدل 7r10a
+              </div>
+              <div class="price">
+                <div class="oldprice">
+                <del>۷۹۵,۰۰۰</del>
+                <span class="percent">%۴۰</span>
+              </div>
+              <div class="newprice">
+                <span>۹۵,۰۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+              
+              <div  class="timer" data-countdown="2021/10/01 12:00"></div>
+              
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/c2.jpg" alt="">
+              </div>
+              <div class="title">
+               شامپو تمیز کننده و براق کننده خودرو روناکس مدل حجم 5۰۰ میلی لیتر 
+              </div>
+              <div class="price">
+                <div class="oldprice">
+                
+                <del>۱۸۹,۰۰۰</del>
+                <span class="percent">%۵۰</span>
+              </div>
+              <div class="newprice">
+                <span>۷۹۵,۰۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+             
+              <div class="timer" data-countdown="2022/03/01 06:30"></div>
+              
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/c3.jpg" alt="">
+              </div>
+              <div class="title">
+                تابه تکنو مدل پروانه سایز 24
+              </div>
+              <div class="price">
+                <div class="oldprice">
+              
+                <del>۴۵,۰۰۰
+                </del>
+                <span class="percent">%۵۰</span>
+              </div>
+              <div class="newprice">
+                <span>۵۵,۰۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+              <div class="timer"  data-countdown="2022/08/01 20:30"></div>
+             
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/c4.jpg" alt="">
+              </div>
+              <div class="title">
+                ساعت مچی عقربه ای زنانه کاسیو مدل LTP-VT01L-2B2UDF
+              </div>
+              <div class="price">
+                <div class="oldprice">
+                
+                <del>۵۵,۰۰۰
+                </del>
+                <span class="percent">%۴۰</span>
+              </div>
+              <div class="newprice">
+                <span>۴۵,۰۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+              <div class="timer" data-countdown="2022/08/01 14:00"></div>
+             
+             </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/c5.jpg" alt="">
+              </div>
+              <div class="title">
+                ست کیف و کفش زنانه کد 910-2
+              </div>
+              <div class="price">
+                <div class="oldprice">
+                
+                <del>۳۶,۰۰۰</del>
+                <span class="percent">%۵۰</span>
+              </div>
+              <div class="newprice">
+                <span>۷۹۵,۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+              <div class="timer" data-countdown="2023/04/01 08:30"></div>
+             
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="card" href="">
+              <div class="image">
+                <img src="img/c6.jpg" alt="">
+              </div>
+              <div class="title">
+                پایه نگهدارنده گوشی موبایل مدل L1000D طرح Samsung
+               </div>
+              <div class="price">
+                <div class="oldprice">
+                
+                <del>۹۵,۰۰۰</del>
+                <span class="percent">%۵۰</span>
+              </div>
+              <div class="newprice">
+                <span>۶۵,۰۰۰</span>
+                <span>تومان</span>
+              </div>
+              </div>
+              <div class="timer" data-countdown="2024/01/01 09:10"></div>
+              
+            </a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        </section>
+      </article>
+
+
+
+      <article class="banner1">
+        <div class="container flex">
+          <a class="atag" href=""><img src="img/banner4.jpg" alt=""></a>
+          <a class="atag" href=""><img src="img/banner5.jpg" alt=""></a>
+        </div>
+      </article>
+      <article class="box container">
+        <div class="boxcontainer">
+
+        <div class="headerbox">
+          بیش از ۲،۰۰۰،۰۰۰ کالا در دسته ‌بندی ‌های مختلف
+        </div>
+        <div class="boxcard flex">
+          <a class="item" href="">
+          <div class="title">کالای دیجیتال</div>
+          <div class="tedad">۶۰۱۰۰۰ کالا</div>
+          </a>
+          <a class="item" href="">
+            
+            <div class="title">خودرو ابزار وتجهیزات صنعتی</div>
+            <div class="tedad">۸۸۰۰۰کالا</div>
+          </a>
+          <a class="item" href="">
+           
+            <div class="title">مد و پوشاک</div>
+            <div class="tedad">۱۲۴۰۰۰ کالا</div>
+          </a>
+          <a class="item" href="">
+          
+            <div class="title">اسباب بازی کودک و نوزاد</div>
+           <div class="tedad">۵۲۰۰۰ کالا</div> 
+          </a>
+          <a class="item" href="">
+            
+            <div class="title">ورزش وسلامت</div>
+            <div class="tedad">۶۰۰۰۰۰ کالا</div> 
+          </a>
+          <a class="item" href="">
+            
+            <div class="title">کالاهای سوپرمارکتی</div>
+           <div class="tedad">کالا ۳۹۶۰۰۰</div>
+          </a>
+          <a class="item" href="">
+           
+            <div class="title">زیبایی و سلامت</div>
+            <div class="tedad">کالا۲۲۳۰۰۰</div>
+          </a>
+          <a class="item" href="">
+           
+            <div class="title">خانه و اشپزخونه</div>
+            <div class="tedad">کالا۲۲۳۰۰ </div>
+          </a>
+          <a class="item" href="">
+            
+            <div class="title">کتاب لوازم تحری</div>
+            <div class="tedad">کالا۳۱۰۰۰ </div>
+          </a>
+        </div>
+<section>
+ <div class="swiper-container s1 swiper1">
+   <div class="headline">
+     <span>گوشی موبایل</span>
+   </div>
+   <div class="swiper-wrapper">
+     <div class="swiper-slide">
+       <a class="card" href="">
+       <div class="image">
+         <img src="img/c1.jpg" alt="">
+       </div>
+       <div class="title">
+         کفش پیاده روی مردانه رومیکا مدل 7r10a
+       </div>
+       <div class="price">
+         <div class="oldprice">
+         <del>۷۹۵,۰۰۰</del>
+         <span class="percent">%۴۰</span>
+       </div>
+       <div class="newprice">
+         <span>۹۵,۰۰۰</span>
+         <span>تومان</span>
+       </div>
+       </div>
+     </a>
+     </div>
+     <div class="swiper-slide">
+       <a class="card" href="">
+       <div class="image">
+         <img src="img/c2.jpg" alt="">
+       </div>
+       <div class="title">
+        شامپو تمیز کننده و براق کننده خودرو روناکس مدل حجم 5۰۰ میلی لیتر 
+       </div>
+       <div class="price">
+         <div class="oldprice">
+         
+         <del>۱۸۹,۰۰۰</del>
+         <span class="percent">%۵۰</span>
+       </div>
+       <div class="newprice">
+         <span>۷۹۵,۰۰۰</span>
+         <span>تومان</span>
+       </div>
+      </div>
+     </a>
+     </div>
+     <div class="swiper-slide">
+       <a class="card" href="">
+       <div class="image">
+         <img src="img/c3.jpg" alt="">
+       </div>
+       <div class="title">
+         تابه تکنو مدل پروانه سایز 24
+       </div>
+       <div class="price">
+         <div class="oldprice">
+       
+         <del>۴۵,۰۰۰
+         </del>
+         <span class="percent">%۵۰</span>
+       </div>
+       <div class="newprice">
+         <span>۵۵,۰۰۰</span>
+         <span>تومان</span>
+       </div>
+       </div>
+     </a>
+     </div>
+     <div class="swiper-slide">
+       <a class="card" href="">
+       <div class="image">
+         <img src="img/c4.jpg" alt="">
+       </div>
+       <div class="title">
+         ساعت مچی عقربه ای زنانه کاسیو مدل LTP-VT01L-2B2UDF
+       </div>
+       <div class="price">
+         <div class="oldprice">
+         
+         <del>۵۵,۰۰۰
+         </del>
+         <span class="percent">%۴۰</span>
+       </div>
+       <div class="newprice">
+         <span>۴۵,۰۰۰</span>
+         <span>تومان</span>
+       </div>
+       </div>
+      </a>
+     </div>
+     <div class="swiper-slide">
+       <a class="card" href="">
+       <div class="image">
+         <img src="img/c5.jpg" alt="">
+       </div>
+       <div class="title">
+         ست کیف و کفش زنانه کد 910-2
+       </div>
+       <div class="price">
+         <div class="oldprice">
+         
+         <del>۳۶,۰۰۰</del>
+         <span class="percent">%۵۰</span>
+       </div>
+       <div class="newprice">
+         <span>۷۹۵,۰۰</span>
+         <span>تومان</span>
+       </div>
+       </div>
+     </a>
+     </div>
+     <div class="swiper-slide">
+       <a class="card" href="">
+       <div class="image">
+         <img src="img/c6.jpg" alt="">
+       </div>
+       <div class="title">
+         پایه نگهدارنده گوشی موبایل مدل L1000D طرح Samsung
+        </div>
+       <div class="price">
+         <div class="oldprice">
+         
+         <del>۹۵,۰۰۰</del>
+         <span class="percent">%۵۰</span>
+       </div>
+       <div class="newprice">
+         <span>۶۵,۰۰۰</span>
+         <span>تومان</span>
+       </div>
+       </div>
+
+     </a>
+     </div>
+   </div>
+   <div class="swiper-button-next"></div>
+   <div class="swiper-button-prev"></div>
+ </div>
+ </section>
+
+
+
+        </div>
+      </article>
+
     </main>
+
+
+
+
+
 
     <footer></footer>
 
-    <script src="/digikala/js/swiper-bundle.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
     <script>
-      var swiper = new Swiper(".swiper-container", {
+      var swiper0 = new Swiper(".s0", {
         slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
@@ -128,6 +667,37 @@
           prevEl: ".swiper-button-prev",
         },
       });
+    </script>
+    <script>
+      var swiper1 = new Swiper('.s1', {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        direction: getDirection(),
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        on: {
+          resize: function () {
+            swiper.changeDirection(getDirection());
+          }
+        }
+      });
+  
+      function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+  
+        return direction;
+      }
+    </script>
+    <script>
+      $('[data-countdown]').each(function() {
+  var $this = $(this), finalDate = $(this).data('countdown');
+  $this.countdown(finalDate, function(event) {
+    $this.html(event.strftime(' %H:%M:%S'));
+  });
+});
     </script>
   </body>
 </html>
